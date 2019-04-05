@@ -7,6 +7,10 @@ Data source: http://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12
 
 # Dependencies
 Numpy https://pypi.org/project/numpy/
+
 Matplotlib https://pypi.org/project/matplotlib/
+
 Seaborn https://pypi.org/project/seaborn/
+
 Pandas https://pypi.org/project/pandas/
+
