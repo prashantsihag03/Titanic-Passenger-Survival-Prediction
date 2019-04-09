@@ -19,7 +19,7 @@ The Dataset contains information about the passengers of the titanic.
 
 
 ## working 
-* Checking the basic information about the dataset *
+*Checking the basic information about the dataset*
 dataset.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 887 entries, 0 to 886
@@ -35,7 +35,7 @@ Fare        887 non-null float64
 dtypes: float64(2), int64(4), object(2)
 memory usage: 55.5+ KB
 
-* checking for null value *
+*checking for null value*
 dataset.isnull().sum()
 Out[12]: 
 Survived    0
