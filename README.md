@@ -18,3 +18,54 @@ Pandas https://pypi.org/project/pandas/
 The Dataset contains information about the passengers of the titanic.
 
 
+### working 
+* Checking the basic information about the dataset *
+dataset.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 887 entries, 0 to 886
+Data columns (total 8 columns):
+Survived    887 non-null int64
+Pclass      887 non-null int64
+Name        887 non-null object
+Sex         887 non-null object
+Age         887 non-null float64
+SS          887 non-null int64
+PC          887 non-null int64
+Fare        887 non-null float64
+dtypes: float64(2), int64(4), object(2)
+memory usage: 55.5+ KB
+
+* checking for null value *
+dataset.isnull().sum()
+Out[12]: 
+Survived    0
+Pclass      0
+Name        0
+Sex         0
+Age         0
+SS          0
+PC          0
+Fare        0
+dtype: int64
+
+
+* now, getting insights of the dataset by fetching few top records of dataset. *
+dataset.head() 
+Survived  Pclass   ...    PC     Fare
+0         0       3   ...     0   7.2500
+1         1       1   ...     0  71.2833
+2         1       3   ...     0   7.9250
+3         1       1   ...     0  53.1000
+4         0       3   ...     0   8.0500
+
+
+
+* Analyses dataset using graphs *
+![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/survived_graph.png)
+![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/survived_graph.png)
+![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/survived_graph.png)
+![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/survived_graph.png)
+![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/survived_graph.png)
+![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/survived_graph.png)
+
+
