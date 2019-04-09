@@ -19,7 +19,7 @@ The Dataset contains information about the passengers of the titanic.
 
 
 ## working 
-*Checking the basic information about the dataset*
+*Checking the basic information about the dataset* <br>
 dataset.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 887 entries, 0 to 886
