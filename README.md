@@ -49,14 +49,14 @@ Fare        0<br>
 dtype: int64<br>
 
 
-*now, getting insights of the dataset by fetching few top records of dataset.*
-dataset.head() 
-Survived  Pclass   ...    PC     Fare
-0         0       3   ...     0   7.2500
-1         1       1   ...     0  71.2833
-2         1       3   ...     0   7.9250
-3         1       1   ...     0  53.1000
-4         0       3   ...     0   8.0500
+*now, getting insights of the dataset by fetching few top records of dataset.*<br>
+dataset.head() <br>
+Survived  Pclass   ...    PC     Fare<br>
+0         0       3   ...     0   7.2500<br>
+1         1       1   ...     0  71.2833<br>
+2         1       3   ...     0   7.9250<br>
+3         1       1   ...     0  53.1000<br>
+4         0       3   ...     0   8.0500<br>
 
 
 
