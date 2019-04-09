@@ -20,33 +20,33 @@ The Dataset contains information about the passengers of the titanic.
 
 ## working 
 *Checking the basic information about the dataset* <br>
-dataset.info()
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 887 entries, 0 to 886
-Data columns (total 8 columns):
-Survived    887 non-null int64
-Pclass      887 non-null int64
-Name        887 non-null object
-Sex         887 non-null object
-Age         887 non-null float64
-SS          887 non-null int64
-PC          887 non-null int64
-Fare        887 non-null float64
-dtypes: float64(2), int64(4), object(2)
-memory usage: 55.5+ KB
+dataset.info()<br>
+<class 'pandas.core.frame.DataFrame'><br>
+RangeIndex: 887 entries, 0 to 886<br>
+Data columns (total 8 columns):<br>
+Survived    887 non-null int64<br>
+Pclass      887 non-null int64<br>
+Name        887 non-null object<br>
+Sex         887 non-null object<br>
+Age         887 non-null float64<br>
+SS          887 non-null int64<br>
+PC          887 non-null int64<br>
+Fare        887 non-null float64<br>
+dtypes: float64(2), int64(4), object(2)<br>
+memory usage: 55.5+ KB<br>
 
-*checking for null value*
-dataset.isnull().sum()
-Out[12]: 
-Survived    0
-Pclass      0
-Name        0
-Sex         0
-Age         0
-SS          0
-PC          0
-Fare        0
-dtype: int64
+*checking for null value*<br>
+dataset.isnull().sum()<br>
+Out[12]: <br>
+Survived    0<br>
+Pclass      0<br>
+Name        0<br>
+Sex         0<br>
+Age         0<br>
+SS          0<br>
+PC          0<br>
+Fare        0<br>
+dtype: int64<br>
 
 
 *now, getting insights of the dataset by fetching few top records of dataset.*
