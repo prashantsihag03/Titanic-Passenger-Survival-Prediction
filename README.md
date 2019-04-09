@@ -18,7 +18,7 @@ Pandas https://pypi.org/project/pandas/
 The Dataset contains information about the passengers of the titanic.
 
 
-### working 
+## working 
 * Checking the basic information about the dataset *
 dataset.info()
 <class 'pandas.core.frame.DataFrame'>
@@ -49,7 +49,7 @@ Fare        0
 dtype: int64
 
 
-* now, getting insights of the dataset by fetching few top records of dataset. *
+*now, getting insights of the dataset by fetching few top records of dataset.*
 dataset.head() 
 Survived  Pclass   ...    PC     Fare
 0         0       3   ...     0   7.2500
@@ -60,7 +60,8 @@ Survived  Pclass   ...    PC     Fare
 
 
 
-* Analyses dataset using graphs *
+*Analyses dataset using graphs*
+
 ![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/graphs/survived_graph.png)
 
 ![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/graphs/survival_wrt_gender.png)
