@@ -19,7 +19,7 @@ The Dataset contains information about the passengers of the titanic.
 
 
 ## working 
-*Checking the basic information about the dataset* <br>
+**Checking the basic information about the dataset** <br>
 dataset.info()<br>
 <class 'pandas.core.frame.DataFrame'><br>
 RangeIndex: 887 entries, 0 to 886<br>
@@ -35,7 +35,7 @@ Fare        887 non-null float64<br>
 dtypes: float64(2), int64(4), object(2)<br>
 memory usage: 55.5+ KB<br>
 
-*checking for null value*<br>
+**checking for null value**<br>
 dataset.isnull().sum()<br>
 Out[12]: <br>
 Survived    0<br>
@@ -49,7 +49,7 @@ Fare        0<br>
 dtype: int64<br>
 
 
-*now, getting insights of the dataset by fetching few top records of dataset.*<br>
+**now, getting insights of the dataset by fetching few top records of dataset.**<br>
 dataset.head() <br>
 Survived  Pclass   ...    PC     Fare<br>
 0         0       3   ...     0   7.2500<br>
@@ -60,7 +60,7 @@ Survived  Pclass   ...    PC     Fare<br>
 
 
 
-*Analyses dataset using graphs*
+**Analyses dataset using graphs**
 
 ![Image of bar graph](https://github.com/prashantsihag03/Titanic-Passenger-Survival-Prediction/blob/master/graphs/survived_graph.png)
 
